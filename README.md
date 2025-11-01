@@ -1,4 +1,4 @@
 # EASY-SEARCH
 A FAST,SMART AND RELIABLE SEARCH ENGINE
-www.fortune nwazue.com
+www.fortune.com
 
