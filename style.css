@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body, html {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background:red;
+}
+
+/* Main container */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Logo */
+.logo {
+  font-size: 64px;
+  color: greenyellow;
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-family: 'Product Sans', Arial, sans-serif;
+}
+
+/* Search form */
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* Search box */
+.search-box {
+  width: 90%;
+  max-width: 600px;
+  padding: 14px 20px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  font-size: 16px;
+  outline: none;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.search-box:focus {
+  border-color: #4285f4;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  background-color: peru;
+  border: 1px solid #f8f9fa;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #e8e8e8;
+}
